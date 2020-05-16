@@ -30,7 +30,6 @@ class Contact extends Component {
                 >   
                     <Text> 1000 Burger Street</Text>
                     <Text> Houston, Texas 77449 </Text>
-                    <Text> United States{"\n"} </Text>
                     <Text> Phone: 1-555-555-5555 </Text>
                     <Text style={{marginBottom: 20}}>
                         Email: admin@burger.com 
@@ -41,9 +40,9 @@ class Contact extends Component {
                     featuredTitle={"Hours"}
                     wrapperStyle={{margin: 1}}
                 >   
-                    <Text> Mon-Thur 11:00AM – 9:00PM</Text>
-                    <Text> Fri-Sat 11:00AM – 10:00PM </Text>
-                    <Text> Sunday 11:00AM –7:00PM </Text>
+                    <Text style = {styles.textt}> Mon-Thur 11:00AM – 9:00PM</Text>
+                    <Text style = {styles.textt}> Fri-Sat 11:00AM – 10:00PM </Text>
+                    <Text style = {styles.textt}> Sunday 11:00AM –7:00PM </Text>
                 </Card>
                 
             </ScrollView>

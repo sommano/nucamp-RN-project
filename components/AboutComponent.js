@@ -32,9 +32,9 @@ class About extends Component {
                     featuredTitle={"Hours"}
                     wrapperStyle={{margin: 1}}
                 >   
-                    <Text> Mon-Thur 11:00AM – 9:00PM</Text>
-                    <Text> Fri-Sat 11:00AM – 10:00PM </Text>
-                    <Text> Sunday 11:00AM –7:00PM </Text>
+                    <Text style = {styles.textt}> Mon-Thur 11:00AM – 9:00PM</Text>
+                    <Text style = {styles.textt}> Fri-Sat 11:00AM – 10:00PM </Text>
+                    <Text style = {styles.textt}> Sunday 11:00AM –7:00PM </Text>
                 </Card>
 
             </ScrollView>
